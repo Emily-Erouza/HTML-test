@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Test</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+
+<!-- Header and nav -->
+  <header class="header" id="header">
+
+    <div id="logo">
+      <header>
+        <h1>My Website</h1>
+    </header>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#home"  target="_self">Home</a></li>
+        <li><a href="#about"  target="_self">About</a></li>
+       
+        <li id="Services">
+          <li class="dropdown">
+            <a href="https://reactjs.org/" class="dropbtn">Services</a>
+            <div class="dropdown-content">
+          <a href="https://www.sophos.com/en-us/products/managed-detection-and-response/incident-response-services?utm_source=google&utm_medium=cpc&utm_campaign=mg-2024-mea-all-demg-gog-gen-convr-mdr-mdr-dsa&utm_term=incident%20response&utm_content=na&cmp=701aJ000004ONveQAG&gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8nWTjjhv4prBxLq42mvoiMvbHPB5ypc8ksBXWvEzBLFPSNwLNr4tzxoCrXYQAvD_BwE&gclsrc=aw.ds" target="_blank"
+              >  Incident Response</a>
+              <a href="https://www.fortinet.com/resources/cyberglossary/what-is-network-security" target="_blank"
+              >Network Security</a>
+              <a href="https://www.fortinet.com/resources/cyberglossary/data-security#:~:text=Data%20security%20is%20the%20process,and%20organizations'%20policies%20and%20procedures." target="_blank"
+              >Data Security</a>
+            </div>
+          </li>
+        </li>
+        <li><a href="#contact"   target="_self">Contact</a></li>
+     
+      </ul>
+
+    </nav>
+  </header>
+
+ 
+  <body>
+    <!-- Main Content -->
+   <br>
+     <main>
+   
+      <article id="home" >
+    
+      <div class=container>
+      
+        <div class="row">
+          <div class="col-sm-4">
+
+            <figure>
+              <img src="https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D"  alt='cybersecurity' class="main-image" />
+            </figure>
+
+            </div>
+        
+          <div class="col-sm-8">
+
+       <h2 class="headings">Introduction</h2>
+            <h3 class="name" >Staying Safe In Cybersecurity</h3>
+            <p class="padded semi-important"> 
+            Cybersecurity is about protecting computers, networks, and data from bad people who want to steal or damage them. It includes measures to prevent hacking, viruses, and other threats. As we use technology more in our daily lives, it's 
+              important to keep our personal and business information safe. By using strong passwords, updating software, and being careful about sharing information online, we can
+               help protect ourselves from cyber attacks.
+            </p>
+    </div>
+    </article>
+    <br/>
+   
+    <section  id="about" class="about-section">
+   
+      <div class=container>
+          <h2 class="headings">Latest News</h2>
+            <ul>
+              <li ><strong class="topics">Why it is important:</strong>
+                <div class="semi-important">Cybersecurity is important because it protects our personal information, financial data, and sensitive business details from being stolen or damaged by cybercriminals.
+                
+                <div class="semi-important"> As we use the internet for banking, shopping, and communicating, strong cybersecurity measures help keep our data safe and ensure our online activities remain private and secure.
+                  Without good cybersecurity, we risk losing money, privacy, and trust in digital services.</div>
+              </li>
+
+              <br>
+              <li><strong class="topics">Prons</strong>:
+              <li class="unordered semi-important">Keeps personal and company information safe from hackers.</li>
+              <li class="unordered semi-important">Stops cybercriminals from stealing money or causing financial damage.</li>
+              <li class="unordered semi-important"> It ensures that organizations can continue operations without disruptions caused by cyber threats.</li>
+             
+              </li>
+
+              <br>
+              <li><strong class="topics">Cons</strong>:
+                <li class="unordered semi-important">Security tools can sometimes make systems and networks run slower.</li>
+                <li class="unordered semi-important">security measures can make people feel too secure, even though risks still exist.</li>
+                <li class="unordered semi-important">Relying too much on security tools can make people forget basic safety habits.</li>
+               
+                </li>
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  
+     <br/>
+<!-- Forms -->
+<form id="contact" >
+<div class=container id="form">
+  <h2 class="headings">Contact</h2>
+  <p class="message"><em>For more information or to discuss future projects, contact me!</em></p>
+  <form action="/action_page form-horizontal inputForm" class="col-md-center-4">
+    <div class="form-group">
+      <label for="fullname" class="control-label"><strong>Username</strong></label>
+      <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Please write your full name...">
+    </div>
+    <div class="form-group">
+      <label class="label-control" for="email"><strong> Email Adress</strong></label>
+      <input class="form-control" type="text" id="email" name="email" placeholder="Please write your email...">
+    </div>
+    <div class="form-group">
+      <label for="message" class="label-control"><strong>Message</strong></label>
+      <textarea class="form-control" id="message" name="message" placeholder="Please leave a message..."></textarea>
+    </div>
+
+    <div class="form-group" >
+
+              <button class="btn btn-default" onclick="alert('Thank you! Your information has been sent!')">Submit</button>
+    </div>
+
+</div>
+</form>
+
+
+<!-- footer -->
+
+<footer class="page-footer font-small">
+
+   
+      <h6 class="footer-copyright"> &copy 2024 My Website</h6>
+  </footer>
+  
+
+
+</body>
+</html>
